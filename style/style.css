@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #242837;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.timer {
+    text-align: center;
+}
+
+.timer__time {
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: #d5d5d5;
+}
+.timer__btn {
+    color: #d5d5d5;
+    border: none;
+    border-radius: 4px;
+    width: 114px;
+    height: 36px;
+    font-size: 20px;
+}
+.timer__btn_start {
+    background: #02bb48;
+}
+.timer__btn_pause {
+    background: orange;
+}
+.timer__btn_stop {
+    background: red;
+}
